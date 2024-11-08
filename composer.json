@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Phoenix\\Core\\": "lib/"
+            "PHPNomad\\Symfony\\Component\\CacheIntegration\\": "lib/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phoenix\\Core\\Tests\\": "tests/"
+            "PHPNomad\\Symfony\\Component\\CacheIntegration\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -37,5 +37,8 @@
         "allow-plugins": {
             "phpstan/extension-installer": true
         }
+    },
+    "require": {
+        "symfony/cache": "^7.1"
     }
 }
